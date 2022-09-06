@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 15vh;
+    background-color: #086cac;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+}
+
+.middle-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    flex-direction: column;
+    background-color: #086cac;
+    color: white;
+}
+
+.nav-list ul {
+    display: flex;
+}
+
+.nav-list ul li {
+    list-style: none;
+    padding: 15px 30px;
+    font-size: x-large;
+}
+
+.nav-list ul li:last-child {
+    background-color: white;
+    color: #086cac;
+    border-radius: 2px;
+}
+
+.nav-list ul li:first-child::after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    display: list-item;
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    opacity: 61%;
+}
+
+.tick-list {
+    list-style: none;
+    padding: 0px;
+}
+
+.tick-list li:before {
+    content: '✓';
+    color: #086cac;
+    padding: 10px;
+    font-weight: 900;
+}
+
+.box {
+    width: 350px;
+    height: 350px;
+    background-color: #086cac;
+    position: relative;
+    border-radius: 8%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #086cac;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-40%, -40%);
+    font-size: 70px;
+}
+
+.col-lg-1 {
+    width: 70px;
+    font-size: 25px;
+    color: #086cac;
+}
+
+.card-box {
+    border: 1px solid gray;
+}
+
+.notification {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-details {
+    display: flex;
+}
+
+.small-image img,
+.three img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+
+.three {
+    display: flex;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+h1 {
+    font-weight: 700;
+    color: #086cac;
+}
+
+.btn-light {
+    color: #086cac;
+}
+
+footer {
+    background-color: #082c44;
+    color: white;
+    padding: 15px;
+}
+
+span {
+    padding: 11px;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.col-lg-3 ul li {
+    list-style: none;
+}
